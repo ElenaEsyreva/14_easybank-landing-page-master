@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    z-index: 10;
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.points {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.points div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.points a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: hsl(233, 8%, 62%);
+    display: block;
+
+}
+
+.points div:hover {
+    border-bottom: 4px solid hsl(136, 65%, 51%);
+}
+
+.points a:hover {
+    color: hsl(233, 26%, 24%);
+
+}
+
+.invite a, .text-1 a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: hsl(0, 0%, 100%);
+    padding: 10px 15px;
+    border-radius: 35px;
+}
+
+.invite a:hover, .text-1 a:hover {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%, 70%), hsl(192, 70%, 51%, 70%));
+    background-color: white;
+    color: white;
+}
+
+.gradient:hover {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%, 70%), hsl(192, 70%, 51%, 70%));
+}
+
+.introduction {
+    display: flex;
+    background: url("./images/bg-intro-desktop.svg") no-repeat 700px -260px;
+}
+
+.introduction .image {
+    overflow: hidden;
+    max-width: 750px;
+    height: 800px;
+}
+.introduction img{
+    margin-right: -90px;
+    margin-top: -120px;
+}
+
+.introduction .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introduction .text-1 {
+    max-width: 45%;
+    margin: auto 15%;
+}
+
+.header {
+    color: hsl(233, 26%, 24%);
+}
+
+.paragraph {
+    color: hsl(233, 8%, 62%);
+    margin-top: 5%;
+    line-height: 25px;
+    margin-bottom: 10%;
+}
+
+.advantages {
+    background-color: hsl(220, 16%, 96%);
+    margin-top: -9%;
+    padding: 100px 120px;
+}
+
+.advantages .paragraph {
+    margin-top: 1%;
+    max-width: 45%;
+}
+
+.font3_3 {
+    font-size: 3.3em;
+}
+
+.font2_5 {
+    font-size: 2.5em;
+}
+
+.font1_5 {
+    font-size: 1.5em;
+}
+
+.font1_3 {
+    font-size: 1.3em;
+}
+
+.font0_9 {
+    font-size: 0.9em;
+}
+
+.font0_8 {
+    font-size: 0.8em;
+}
+
+.font0_6 {
+    font-size: 0.6em;
+}
+
+.line-height20 {
+    line-height: 20px;
+}
+
+.bullets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bullet .header {
+    margin-top: 30px;
+}
+
+.bullet .paragraph {
+    margin-top: 10px;
+    max-width: 80%;
+}
+
+.articles {
+    background-color: hsl(220, 16%, 96%, 45%);
+    margin-top: 1%;
+    padding: 100px 120px;
+}
+
+.articles .bullet {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 40px;
+    max-width: 23%;
+}
+
+.articles a {
+    text-decoration: none;
+}
+
+.articles a:hover {
+    color: hsl(136, 65%, 51%, 70%);
+}
+
+.articles .text-2 {
+    padding: 10px 20px;
+}
+
+.text-2 .paragraph {
+    margin-bottom: 3%;
+    max-width: 90%;
+}
+
+.articles img {
+    border-radius: 5px 5px 0 0;
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    margin-top: 5%;
+    display: flex;
+    height: 100px;
+    padding: 40px 100px;
+    justify-content: space-around;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.p3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+footer a:hover {
+    color: hsl(136, 65%, 51%, 60%);
+}
+
+.end {
+    color: hsl(233, 8%, 62%);
+}
+.icon a:hover path{
+    fill: hsl(136, 65%, 51%, 60%);
+}
